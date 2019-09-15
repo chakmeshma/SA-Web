@@ -1,0 +1,170 @@
+ @font-face { font-family: Cairo; src: url("../fonts/Cairo/Cairo-Light.ttf"); } 
+ @font-face { font-family: AcuminPro; src: url("../fonts/Acumin-RPro.otf"); } 
+
+
+html { 
+  background: url("../images/Rectangle 321@3x.png") no-repeat center center fixed; 
+  background-size: cover;
+}
+
+.loginContainer {
+	
+  width: 918px;
+  height: 593px;
+  object-fit: contain;
+
+	vertical-align: middle;
+/*	background-color: #0B0455;*/
+	background-image: url("../images/Group 935.svg");
+	background-size: contain;
+	margin: auto;
+/*	border-radius: 16px;*/
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.loginContainerRightSide {
+	width: 525px;
+	background-image: url("../images/971 [Converted].svg");
+	margin-top: 6px;
+	margin-bottom: 12px;
+	margin-right: 9px;
+}
+
+.loginContainerLeftSide {
+/*	width: 525px;*/
+	flex-grow: 1;
+	margin-top: 6px;
+	margin-bottom: 12px;
+	margin-left: 9px;
+
+}
+
+.registerSideText {
+	text-align: center;
+	height: 138px;
+	font-family: Cairo;
+	font-size: 74px;
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.86;
+	letter-spacing: normal;
+	color: #fcb645;
+	margin-top: 31px;
+}
+
+.registerSidePic {
+	background-image: url("../images/Group 2977.svg");
+	background-size: contain;
+	text-align: left;
+	height: 331.3px;
+/*	width: 489.1px;*/
+	margin-left: 14.2px;
+	margin-right: 21.7px;
+}
+
+.registerSidePic > img{
+	position: relative;
+	top: -30.9px;
+	left: 87.1px;
+}
+
+.leftSideLogo {
+	background-image: url("../images/Group 723.svg");
+	height: 115.4px;
+	width: 175px;
+	background-size: cover;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 29.9px;
+}
+
+input.registerField {
+	width: 253px;
+	height: 34px;
+/*	opacity: 0.1;*/
+	background-color: #241c63;
+	border: none;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-bottom: 1px solid white;
+	padding: 11px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	font-family: Cairo;
+	font-size: 18px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.83;
+	letter-spacing: normal;
+	text-align: left;
+	color: #fcb645;
+	margin-top: 28.8px;
+}
+
+input.registerField::-webkit-input-placeholder { /* Edge */
+  color: gray;
+}
+
+input.registerField:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: gray;
+}
+
+input.registerField::placeholder {
+  color: gray;
+}
+
+
+.registerButton {
+	display: block;
+	background: none;
+	background-image: url("../images/Rectangle 310@2x.png");
+	background-size: cover;
+	background-position: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 19px;
+	padding: 0px;
+	width: 275px;
+	height: 50px;
+	border: none;
+	font-family: Cairo;
+	font-size: 24px;
+	font-weight: 600;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.88;
+	letter-spacing: normal;
+	text-align: center;
+	color: #ffffff;
+	cursor: pointer;
+
+}
+
+.registerLoginText {
+	margin-top: 32px;
+  font-family: AcuminPro;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.44;
+  letter-spacing: -0.36px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.registerLoginText > a{
+  color: #fcb645;
+}
+
+#passwordEyeToggle {
+	display:block;
+	position: relative;
+	left: 285px;
+	top: -35px;
+	cursor: pointer;
+}
