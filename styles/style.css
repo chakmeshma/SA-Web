@@ -305,7 +305,8 @@
      left: -10px;
  }
  
- .Lets-confirm-your-email {
+ .Lets-confirm-your-email,
+ .welcome-misaq {
      width: 549px;
      height: 92px;
      font-family: Cairo;
@@ -320,7 +321,8 @@
      margin: 49.5px auto 0px auto;
  }
  
- .type-in-code {
+ .type-in-code,
+ .complete-your-profile {
      width: 509px;
      height: 45px;
      font-family: Cairo;
@@ -381,6 +383,10 @@
      margin-top: 74.5px;
  }
  
+ .goToProfileButton {
+     margin-top: 30px;
+ }
+ 
  .Didnt-receive-the-code {
      width: 350px;
      height: 33px;
@@ -395,4 +401,16 @@
      color: #2d0592;
      margin: 10px auto 0 auto;
      display: block;
+ }
+ 
+ input.profileCreationField {
+     width: 471px;
+     border-bottom: 1px solid #2d0592;
+     background-color: #e9e5f3;
+     color: #2d0592;
+     margin-top: 24px;
+ }
+ 
+ input.firstProfileCreationField {
+     margin-top: -1px;
  }

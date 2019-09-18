@@ -26,6 +26,9 @@ function togglePasswordView() {
 }
 
 function initInputEvents() {
+    $(".code-entry-input").click(function() {
+        $(this).select();
+    });
     $(".code-entry-input").keyup(function() {
         if (this.value.length == this.maxLength) {
             $(this).next('.code-entry-input').focus();
