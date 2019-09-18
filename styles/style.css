@@ -236,6 +236,12 @@
      height: 2px;
  }
  
+ .roadLine2 {
+     background-image: url("../images/road\ line 2.svg");
+     width: 306px;
+     height: 2px;
+ }
+ 
  .roadCircleLeft {
      height: 31px;
      width: 31px;
@@ -248,6 +254,11 @@
      margin-left: 6px;
  }
  
+ .roadCircleRight2>img {
+     margin-top: 6px;
+     margin-left: 6px;
+ }
+ 
  .roadCircleRight {
      height: 31px;
      width: 31px;
@@ -255,8 +266,16 @@
      background-image: url("../images/circle\ right.svg")
  }
  
+ .roadCircleRight2 {
+     height: 31px;
+     width: 31px;
+     margin-left: 12px;
+     background-image: url("../images/Ellipse 82.svg")
+ }
+ 
  .roadCircleLeft>div,
- .roadCircleRight>div {
+ .roadCircleRight>div,
+ .roadCircleRight2>div {
      width: 150px;
      height: 33px;
      font-family: Cairo;
@@ -278,6 +297,11 @@
  
  .roadCircleRight>div {
      top: 36px;
+     left: -10px;
+ }
+ 
+ .roadCircleRight2>div {
+     top: 7px;
      left: -10px;
  }
  
